@@ -6,12 +6,12 @@
 }
 
 body{
-    background-color: rgb(62, 76, 138);
+    background-color: rgb(255, 255, 255);
 }
 
  header{
     height: 50vh;
-    width: 100vw;
+    width: 100%;
  }
 
  .content{
