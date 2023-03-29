@@ -127,6 +127,7 @@ section >h2{
    text-indent: 30px;
 }
 #meio{
+   width: 100%;
    display: flex;
    justify-content: space-around;
    flex-direction: row;
@@ -219,7 +220,8 @@ section >h2{
 .imgfim > img{
    border: 5px solid black;
    width: 100%;
-   width: 300x;
+   min-width: 100px;
+   max-width: 300px;
    height: 300px;
 }
 
