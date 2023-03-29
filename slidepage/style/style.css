@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+@font-face {
+   font-family: testo;
+   src: url(../font/testo/Retro\ Gaming.ttf);
+}
+@font-face {
+   font-family: titulo;
+   src: url(../font/titulo/chintzy.ttf);
+}
+
 *{
 margin: 0px;
 padding: 0px;
@@ -94,20 +103,27 @@ main{
 
 section >h2{
    text-align: center;
-   padding: 20px;
+   padding: 50px 0px;
+   font-style: normal;
+   font-size: 3em;
+   font-family: titulo, Arial, Helvetica, sans-serif;
 }
 
 .paragrafo{
    text-align: justify;
-   font: 1em sans-serif;
+   font-family: testo ,'Times New Roman', Times, serif;
+   font-size: 20px;
+   padding-bottom: 50px;
    display: block;
    margin: auto;
    width: 100%;
    min-width: 200px;
    max-width: 800px;
+   text-indent: 30px;
 }
 .paragrafo>p{
    padding: 10px;
+   text-indent: 30px;
 }
 #meio{
    display: flex;
@@ -135,7 +151,95 @@ section >h2{
    height: 30vh;
 }
 
-.meio1{
-   background-color: rgba(250, 235, 215, 0.308);
+.meio1>.titulo{
+   font-family: titulo, Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 1.2em;
+   padding: 10px 0px;
+   text-align: center;
+}
+.meio1>p{
+   font-family: testo, Arial, Helvetica, sans-serif;
+   font-size: 0.8em;
+   padding: 0px 20px;
+   text-align: justify;
+   text-indent: 30px;
+}
 
+.meio1{
+   background-color: rgba(255, 255, 255, 0.493);
+
+}
+
+#fundo{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+   position: relative;
+}
+
+.fundo1 p{
+   text-indent: 30px;
+   min-width:200px;
+   max-width: 800px;
+   text-align: justify;  
+   font-family: testo ,'Times New Roman', Times, serif;
+   font-size: 20px;
+   padding-bottom: 50px;
+}
+
+.fundo2>img{
+   width: 400px;
+   height:100%;
+}
+.imf{
+   background-color: black;
+   color: white;
+}
+#imgfim{
+   background-color: black;
+   display:flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 15px;
+}
+
+.imgfim > img{
+   padding: 5px;
+   width: 300x;
+   height: 300px;
+}
+
+
+
+#footer{
+   padding: 20px;
+   background-color: gray;
+}
+
+.foot{
+   padding: 30px;
+   display:flex;
+   justify-content: space-around;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color: rgba(182, 175, 175, 0.829);
+}
+
+.footer{
+   padding: 10px;
+   width: 200px; 
+}
+
+.footer>p{
+   padding-bottom: 10px;
+   font: 1.5em sans-serif;
+}
+
+li>a{
+   color: white;
+   text-decoration: none;
 }
