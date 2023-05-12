@@ -1,4 +1,0 @@
-instalar 
-liver server.
-
-para pode estar criando um servido local(eu chao e oque faz funcionar kk)
