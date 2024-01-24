@@ -24,10 +24,14 @@ body{
     width: 100%;
 }
 .cabe span{
-    background-image: url(../img/interrupto-off.png);
+    display: flex;
+    background-size: cover;
     width: 100px;
     height: 50px;
-    background-size: cover;
+    
+}
+#interruptoon{
+    display: none;
 }
 .estante{
     background-color: black;
