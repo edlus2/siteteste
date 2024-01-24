@@ -1,16 +1,13 @@
-let inte = document.getElementById("interrupto");
 let interruptooff = document.getElementById("interruptooff");
-let interruptoon = document.getElementById("interruptoon");
-inte.addEventListener('click',apert);
-
-
-
+interruptooff.addEventListener('click',apert);
 
 function apert(){
-    if(interruptooff === display.none){
-        interruptooff.style.display= 'block';
-    }else
+    if(interruptooff.classname == 'off' ){
+        interruptooff.src = './img/interrupto-off.png';
+        interruptooff.className ='on';
+    }else{
+        interruptooff.src = './img/interrupto-on.png';
+        interruptooff.className = 'off';
+    }
 
-    interruptooff.style.display ='none';
-    interruptoon.style.display = 'block';
 }
