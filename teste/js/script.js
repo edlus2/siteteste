@@ -1,13 +1,12 @@
-let interruptooff = document.getElementById("interruptooff");
-interruptooff.addEventListener('click',apert);
+let off = window.document.querySelector('.interruptooff')
+let on = window.document.querySelector('.interruptoon')
 
-function apert(){
-    if(interruptooff.classname == 'off' ){
-        interruptooff.src = './img/interrupto-off.png';
-        interruptooff.className ='on';
-    }else{
-        interruptooff.src = './img/interrupto-on.png';
-        interruptooff.className = 'off';
-    }
+off.addEventListener('click',function(){
+    off.style.display = 'none';
+    on.style.display = 'block';
+});
 
-}
+on.addEventListener('click',function(){
+    off.style.display = 'block';
+    on.style.display = 'none';
+});

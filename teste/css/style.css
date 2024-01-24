@@ -23,12 +23,18 @@ body{
     justify-content: center;
     width: 100%;
 }
-.cabe span{
+.cabe div{
     display: flex;
     background-size: cover;
     width: 100px;
     height: 50px;
-    
+}
+
+.interruptooff{
+    display: block;
+}
+.interruptoon{
+    display: none;
 }
 
 .estante{
