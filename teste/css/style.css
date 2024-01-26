@@ -64,7 +64,7 @@ body{
 }
 
 .est1{
-    box-shadow: ;
+    box-shadow: 1;
     border-top: 5px solid red;
     border-right: 5px solid red;
 }
