@@ -62,14 +62,19 @@ body{
     border: 1px solid white;
 
 }
-
+.estas{
+    display: flex;
+}
 .est1{
-    box-shadow: 1;
-    border-top: 5px solid red;
-    border-right: 5px solid red;
+    display: flex;
+    box-shadow: inset -5px 13px 20px 0px red; 
 }
 .est2{
-    border-top: 5px solid red;
-    border-left: 5px solid red;
+    display: flex;
+    box-shadow: inset 5px 13px 20px 0px red;  
  }
+ .est3{
+    display: flex;
+    box-shadow: inset -5px 13px 20px 0px red; 
+}
  
