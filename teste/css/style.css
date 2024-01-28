@@ -7,14 +7,17 @@
 }
 
 body{
-    background-color: blue;
+    overflow: hidden;
+    background-image: url(https://www.designi.com.br/images/preview/10126730.jpg);
 }
 
 .cabe{
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 20px;
+    background-color: black;
 }
 
 .cabe h1{
@@ -43,38 +46,74 @@ body{
     height: 100%;
     width: 450px;
     height: 600px;
-    border: 1px solid white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.divisoria{
+#divisoria1{
+    background-image: url(https://img.freepik.com/fotos-premium/mesa-de-madeira-marrom-sobre-um-fundo-preto-da-parede_174431-174.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
-    border: 1px solid white;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 1px solid black;
     width: 450px;
     height: 200px;
 }
-
+#divisoria2{
+    background-image: url(https://img.freepik.com/fotos-premium/mesa-de-madeira-marrom-sobre-um-fundo-preto-da-parede_174431-174.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 1px solid black;
+    width: 450px;
+    height: 200px;
+}
+#divisoria3{
+    background-image: url(https://img.freepik.com/fotos-premium/mesa-de-madeira-marrom-sobre-um-fundo-preto-da-parede_174431-174.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 450px;
+    height: 200px;
+}
 .base{
     width: 150px;
     height: 200px;
-    border: 1px solid white;
-
+    
 }
+
 .estas{
     display: flex;
 }
 .est1{
     display: flex;
-    box-shadow: inset -5px 13px 20px 0px red; 
+    box-shadow: inset -5px 13px 20px 0px #26f7f7; 
 }
 .est2{
     display: flex;
-    box-shadow: inset 5px 13px 20px 0px red;  
+    box-shadow: inset 5px 13px 20px 0px #26f7f7;  
  }
  .est3{
     display: flex;
-    box-shadow: inset -5px 13px 20px 0px red; 
+    box-shadow: inset -5px 13px 20px 0px #26f7f7; 
 }
  
+footer{
+    background-image: url(https://media.istockphoto.com/id/1277752567/pt/foto/earth-texture-macro-photography-pattern-background.jpg?s=612x612&w=0&k=20&c=0VfN_K1q8ioCDbBKFd5VAVWnVb1r9oh9_gX6lKr9TN8=);
+    box-shadow: inset -5px 13px 20px 0px #26f7f7; 
+    height: 110px;
+    width: 100%;
+    
+}
