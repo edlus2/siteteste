@@ -8,7 +8,7 @@
 
 body{
     overflow: hidden;
-    background-image: url(https://img.freepik.com/fotos-premium/fundo-do-grunge-com-espaco-para-texto_87394-20608.jpg?size=626&ext=jpg);
+    background-image: url(https://img.freepik.com/fotos-premium/textura-de-madeira-grande-fundo-de-madeira-resistido-de-pranchas-com-pregos-enferrujadosafiado-e-altamente-detalhadoa-vista-de-cimapinho-conifero-aplainado-cru-naturala-superficie-da-mesa-para-atirar-em-postura-plana_146482-7234.jpg);
     background-size: contain;
 }
 
@@ -18,7 +18,9 @@ body{
     justify-content: space-between;
     width: 100%;
     padding: 20px;
-    background-color: black;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-preto-com-textura-de-fibra-de-carbono_1017-33436.jpg);
+    background-size: contain;
+    box-shadow: 0px -7px 20px 19px #0000008e;
 }
 
 .cabe h1{
@@ -40,7 +42,6 @@ body{
 .interruptoon{
     display: none;
 }
-
 .estante{
     background-color: black;
     margin: auto;
@@ -50,6 +51,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    box-shadow:  11px 18px 20px 0px #00000094;
 }
 
 #divisoria1{
@@ -91,8 +93,7 @@ body{
 }
 .base{
     width: 150px;
-    height: 200px;
-    
+    height: 200px;  
 }
 
 .estas{
@@ -109,13 +110,4 @@ body{
  .est3{
     display: flex;
     box-shadow: inset -5px 13px 20px 0px #26f7f7; 
-}
- 
-footer{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCbdCGC29zLGwIz_bVWhIeiHeQetwQxjY5j8Bvfnzn2Oudf-FLvyGW4nxk-o--OKivhMk&usqp=CAU);
-    background-size: contain;
-    box-shadow: 0px -20px 20px 20px #5fb7da;
-    height: 110px;
-    width: 100%;
-    
 }
