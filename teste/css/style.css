@@ -8,6 +8,8 @@
 
 body{
     overflow: hidden;
+    width: 100vw;
+    height: 100vh;
     background-image: url(https://img.freepik.com/fotos-premium/textura-de-madeira-grande-fundo-de-madeira-resistido-de-pranchas-com-pregos-enferrujadosafiado-e-altamente-detalhadoa-vista-de-cimapinho-conifero-aplainado-cru-naturala-superficie-da-mesa-para-atirar-em-postura-plana_146482-7234.jpg);
     background-size: contain;
 }
