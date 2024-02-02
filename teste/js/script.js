@@ -32,3 +32,12 @@ on.addEventListener('click',function(){
     led3.className = 'estas';
 });
 
+let panico = window.document.querySelector('.panico')
+
+function pan(){
+    panico.className = 'informacao';
+}
+
+function volta(){
+    panico.className = 'panico';
+}
