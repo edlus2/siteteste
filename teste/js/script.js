@@ -33,11 +33,50 @@ on.addEventListener('click',function(){
 });
 
 let panico = window.document.querySelector('.panico')
+let ite = window.document.querySelector('.it')
+let moto = window.document.querySelector('.motoserra')
+let chapo = window.document.querySelector('.chapolin')
+let meedival = window.document.querySelector('.meedival')
+let scorpion = window.document.querySelector('.scorpion')
+let goku = window.document.querySelector('.goku')
+let laika = window.document.querySelector('.laika')
+let saitama = window.document.querySelector('.saitama')
 
 function pan(){
     panico.className = 'informacao';
 }
-
+function it(){
+    ite.className = 'informacao';
+}
+function mot(){
+   moto.className = 'informacao';
+}
+function chapol(){
+    chapo.className = 'informacao';
+ }
+ function medi(){
+    meedival.className = 'informacao';
+ }
+ function scorp(){
+    scorpion.className = 'informacao';
+ }
+ function gok(){
+    goku.className = 'informacao';
+ }
+ function lai(){
+    laika.className = 'informacao';
+ }
+ function sai(){
+    saitama.className = 'informacao';
+ }
 function volta(){
     panico.className = 'panico';
+    ite.className = 'it';
+    moto.className = 'motoserra';
+    chapo.className = 'chapolin';
+    meedival.className = 'meedival';
+    scorpion.className = 'scorpion';
+    goku.className = 'goku';
+    laika.className = 'laika';
+    saitama.className = 'saitama';
 }
