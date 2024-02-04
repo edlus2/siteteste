@@ -32,6 +32,7 @@ on.addEventListener('click',function(){
     led3.className = 'estas';
 });
 
+//click para informação dos action
 let panico = window.document.querySelector('.panico')
 let ite = window.document.querySelector('.it')
 let moto = window.document.querySelector('.motoserra')
